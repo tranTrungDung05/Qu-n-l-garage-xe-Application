@@ -30,7 +30,7 @@ class RegisterScreen extends StatelessWidget {
             SizedBox(height: 32),
             ElevatedButton(
               onPressed: () {
-                context.go('lib\screens\auth\login_screen.dart');
+                context.go('/login');
               },
               child: const Text("Login"),
             ),
@@ -40,3 +40,6 @@ class RegisterScreen extends StatelessWidget {
     );
   }
 }
+
+
+//note: lỗi route login screen

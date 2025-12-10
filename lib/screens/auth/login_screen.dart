@@ -37,7 +37,7 @@ class LoginScreen extends StatelessWidget {
             SizedBox(height: 16),
             TextButton(
               onPressed: () {
-                context.go('/register_screen.dart');
+                context.go('/register');
               },
               child: const Text("Don't have an account? Register"),
             ),
